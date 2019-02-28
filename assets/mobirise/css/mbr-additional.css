@@ -1774,9 +1774,6 @@ body {
 .cid-rjhbLHbMxK .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-rjgR0qCRwr {
-  background-color: #ffffff;
-}
 .cid-rjgR0qCRwr .mbr-section-subtitle {
   letter-spacing: .2rem;
 }
@@ -1803,11 +1800,95 @@ body {
   letter-spacing: 1rem;
 }
 .cid-rjhahKCMhx {
-  background: linear-gradient(45deg, #232323, #0f7699);
+  background-image: url("../../../assets/images/discord-1280x720.jpg");
 }
 .cid-rjhahKCMhx .mbr-section-subtitle {
   font-style: italic;
   letter-spacing: 1rem;
+}
+.cid-rjmAcGrtHp {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #073b4c;
+}
+.cid-rjmAcGrtHp .line {
+  background-color: #ffffff;
+  color: #ffffff;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rjmAcGrtHp .section-text {
+  padding: 2rem 0;
+}
+.cid-rjmAcGrtHp .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rjmAcGrtHp .inner-container {
+    width: 100% !important;
+  }
+}
+.cid-rjmAgcUDPh {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ff3333;
+}
+.cid-rjmAgcUDPh .counter-container {
+  color: #767676;
+}
+.cid-rjmAgcUDPh .counter-container ol {
+  margin-bottom: 0;
+  counter-reset: myCounter;
+}
+.cid-rjmAgcUDPh .counter-container ol li {
+  margin-bottom: 1rem;
+}
+.cid-rjmAgcUDPh .counter-container ol li {
+  list-style: none;
+  padding-left: .5rem;
+}
+.cid-rjmAgcUDPh .counter-container ol li:before {
+  position: absolute;
+  left: 0px;
+  margin-top: -10px;
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 40px;
+  transition: all .2s;
+  color: #000000;
+  background: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border-radius: 0;
+}
+.cid-rjmAgcUDPh .mbr-text B {
+  color: #ffffff;
+}
+.cid-rjmAgcUDPh .mbr-text LI {
+  color: #ffffff;
+}
+.cid-rjmCa5JLPI {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #e4d295;
+}
+.cid-rjmCa5JLPI .mbr-text,
+.cid-rjmCa5JLPI blockquote {
+  color: #767676;
+}
+.cid-rjmCsyyE1j {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #b1a374;
+}
+.cid-rjmCsyyE1j .mbr-text,
+.cid-rjmCsyyE1j blockquote {
+  color: #767676;
 }
 .cid-rjhbeJNxDH {
   background: #ffffff;
